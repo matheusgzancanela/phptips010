@@ -1,0 +1,28 @@
+{
+  "name": "matheusgzancanela/phptips010",
+  "description": "UPLOAD DE IMAGENS E ARQUIVOS COM UPLOADER | PHP TIPS #010",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matheus G. Zancanela",
+      "email": "matheusgzpessoal@gmail.com",
+      "role": "Developer",
+      "homepage": "https://github.com/matheusgzancanela"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/uploader": "1.0.*"
+  }
+}
